@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
-import HomePage from './components/HomePage';
-import SignInPage from './components/SignInPage';
-import Dashboard from './components/Dashboard';
-import Canvas from './components/Canvas';
+import HomePage from './Components/HomePage';
+import SignInPage from './Components/SignInPage';
+import Dashboard from './Components/Dashboard';
+import Canvas from './Components/Canvas';
 import './App.css';
 
 function App() {
