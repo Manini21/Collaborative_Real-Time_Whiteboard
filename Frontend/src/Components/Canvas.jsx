@@ -27,7 +27,7 @@ const Canvas = ({ user, roomCode, onLeaveRoom, onSignOut }) => {
   }, [chatMessages]);
 
   useEffect(() => {
-    const newSocket = io('https://your-backend-name.onrender.com');
+    const newSocket = io('https://collaborative-real-time-whiteboard.onrender.com');
     setSocket(newSocket);
 
     // Join the specific room
