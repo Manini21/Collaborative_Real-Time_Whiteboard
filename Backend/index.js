@@ -7,7 +7,7 @@ const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
     origin:[ "http://localhost:5173",
-    "https://your-app.vercel.app"]
+    "https://your-app.vercel.app"],
     methods: ["GET", "POST"],
   },
 });
