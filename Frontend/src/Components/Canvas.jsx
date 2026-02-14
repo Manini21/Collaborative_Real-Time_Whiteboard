@@ -27,7 +27,7 @@ const Canvas = ({ user, roomCode, onLeaveRoom, onSignOut }) => {
   }, [chatMessages]);
 
   useEffect(() => {
-    const newSocket = io('http://localhost:5000');
+    const newSocket = io('https://your-backend-name.onrender.com');
     setSocket(newSocket);
 
     // Join the specific room
